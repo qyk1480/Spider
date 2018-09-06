@@ -1,0 +1,14 @@
+bash_profile
+
+proxyuser = "qwe"
+export proxyuser
+proxypwd = "123456"
+export proxypwd
+
+----------------------------------------------------------------------------
+import os
+
+proxyuser = os.envirom.get("proxyuser")
+proxypwd = os.envirom.get("proxypwd")
+
+authpproxy_handler = urllib.request.ProxyHandler({"http" : proxyuser+":"+proxypwd+"@180.97.193.58:3128"})
