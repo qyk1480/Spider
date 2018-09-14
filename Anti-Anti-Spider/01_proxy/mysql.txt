@@ -1,0 +1,14 @@
+create database spider charset utf8;
+create table xici(
+id int primary key auto_increment not null,
+protocol varchar(10) not null default 'http',
+ip varchar(20),
+port varchar(10)
+)charset utf8;
+
+create table gather(
+id int primary key auto_increment not null,
+protocol varchar(10) not null default 'http',
+ip varchar(20),
+port varchar(10)
+)charset utf8;
