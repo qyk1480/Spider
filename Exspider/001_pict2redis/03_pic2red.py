@@ -15,7 +15,7 @@ class SimpleHash(object):
     def hash(self, value):
         ret = 0
         for i in range(len(value)):
-            ret +=self.seed * ret + ord(value[i])
+            ret += self.seed * ret + ord(value[i])
         return (self.cap - 1) & ret
 
 
