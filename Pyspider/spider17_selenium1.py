@@ -12,8 +12,8 @@ driver = webdriver.Chrome(executable_path='C:\\Program Files (x86)\\Google\Chrom
 
 driver.get("http://bangumi.tv/login")
 
-driver.find_element_by_name("email").send_keys("1336726254@qq.com")
-driver.find_element_by_id("password").send_keys("qwebangumi123")
+driver.find_element_by_name("email").send_keys("xxxx")
+driver.find_element_by_id("password").send_keys("xxxx")
 driver.find_element_by_xpath('//input[@class="inputBtn"]').click()
 time.sleep(3)
 driver.save_screenshot("bangumi1.png")

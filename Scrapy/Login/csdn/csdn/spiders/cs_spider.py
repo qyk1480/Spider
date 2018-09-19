@@ -11,13 +11,13 @@ class CsSpider(scrapy.Spider):
         lt = response.xpath('//div[@class="user-pass"]//input[@name="lt"]/@value').extract()
         execution = response.xpath('//div[@class="user-pass"]//input[@name="execution"]/@value').extract()
         # fkid = response.xpath('//div[@class="user-pass"]//input[@name="fkid"]/@value').extract()
-        fkid = 'WC39ZUyXRgdGWzGOCElWoPMxDxSMGhEim5sBp0a6FvC1NbSD7TcF32qioI6JSgQX9+SMglT7ypSYR1s7UlXe2Hvk3/UCnkiaVP8oeLJ7ep4kBqkbBrqK/b1X5pVVE247je/Ysrz06apr8WQCkkJTqhEZ8pCNkGi2yQhzpvB+jhXggJ3fFAhs6WCPPSIoid/0hAD9XWhrlL37RqmQSKxxwV0qNp3IXhnVuuEH9alwqgXx1cvionFIHc04LQfvsOkAw1487577677129'
+        fkid = 'xxxx'
         yield scrapy.FormRequest.from_response(
             response,
             formdata = {
                         'gps': '',
-                        'username': 'qyk1480',
-                        'password': 'qykAIMIking13',
+                        'username': 'xxxx',
+                        'password': 'xxxx',
                         'rememberMe': 'true',
                         'lt': lt,
                         'execution': execution,

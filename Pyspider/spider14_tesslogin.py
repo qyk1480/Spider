@@ -41,8 +41,8 @@ def bangumiLogin():
         'formhash': formhash,
         'referer': 'http://bangumi.tv/',
         'dreferer': 'http://bangumi.tv/',
-        'email': '1336726254@qq.com',
-        'password': 'qwebangumi123',
+        'email': 'xxxx',
+        'password': 'xxxx',
         'captcha_challenge_field': text,
         'loginsubmit': '登录'
     }

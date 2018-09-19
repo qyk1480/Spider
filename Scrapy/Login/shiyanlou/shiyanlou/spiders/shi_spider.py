@@ -9,8 +9,8 @@ class ShiSpider(scrapy.Spider):
 
     def parse(self, response):
         form = {
-            'login': '1336726254@qq.com',
-            'password': 'qweshiyanlou123',
+            'login': 'xxxx',
+            'password': 'xxxx',
             'next': '/user/account',
             'remember': ''
             }

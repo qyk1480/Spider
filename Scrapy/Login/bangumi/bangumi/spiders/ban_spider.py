@@ -7,7 +7,7 @@ class BanSpider(scrapy.Spider):
     allowed_domains = ['bangumi.tv/']
     start_urls = ['http://bangumi.tv/']
 
-    cookie = 'chii_cookietime=0; chii_auth=4xKCm2%2BgJm8dNCCDZfJ3aoIzZvR0Ki72DUpMqM37oUnPt7RhhwroeE2c%2BQBVnHSqjUsG4qdii%2FJWYWkIfq3oYVNEpoBTNJJx5mO7; chii_sid=KPZZ2U'
+    cookie = 'xxx'
     cookies = {i.split('=')[0]: i.split('=')[1] for i in cookie.split(';')}
 
     def start_requests(self):
